@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    min-height: 150px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(219, 219, 219);
+    border-bottom: solid black 2px;
+}
+
+header nav {
+    margin-left: 275px;
+    clear: both;
+}
+
+header li {
+    display: inline;
+    padding: 0 25px 0 25px;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+}
+
+
+header img{
+    float: left;
+    margin: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#afspraak button{
+    margin-top: 25px;
+    width: 175px;
+    height: 80px;
+    background-color: rgb(219, 219, 219);
+    color: black; 
+    clear: both;
+}
+
+
+#showcase{
+    min-height:375px;
+    background:url("kapper.jpg") no-repeat -100px 0px;
+    text-align:center;
+    color:white;
+}
+
+#showcase h1{
+    padding: 50px 0px 10px 0px;
+    margin-top:0px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+
+#box {
+    margin: 15px;
+    padding: 5px;
+    width: 50px;
+    height: 100px;
+    background-color: green;
+}
+
+
+
+footer{
+    padding:15px;
+    margin-top:155px;
+    color: black;
+    background-color:rgb(219, 219, 219);
+    text-align:center;
+    clear: both;
+}
